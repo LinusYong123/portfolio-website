@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;700;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    background: #e64a4a;
+}
+.banner{
+    background-color: purple;
+    text-align: center;
+}
+.banner .name{
+    color: #fff;
+    padding: 90px 70px 0px 70px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 2em;
+}
+.banner .job{
+    color: #fff;
+    padding: 70px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 2em;
+}
+.main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+}
+.main .info{
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    text-align: center;
+    color: #bce1eb;
+}
+hr{
+    width: 100%;
+}
+.footer{
+    padding: 20px 20px 30px 20px;
+    color: pink;
+    text-align: center;
+}
+.item{
+    color: pink;
+    padding: 5px;
+    cursor: pointer;
+    display: none;
+}
